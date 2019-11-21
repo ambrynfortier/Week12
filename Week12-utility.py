@@ -25,8 +25,16 @@ def FindWordCount(lt, st):
             count = count + 1;
     return
 
-#def ScoreFinder(players):
-    #return
+def ScoreFinder(players, scores, string):
+    if string in players:
+        index = players.index(string) #what is list index 
+        score = scores[index]
+        todisp = string(index) + "got a score of " str(score)
+    else:
+        todisp = "player not found"
+        
+    print("OUTPUT " + todisp)
+    return
 
 #def Union(list1,list2):
     #return
