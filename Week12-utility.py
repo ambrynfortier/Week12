@@ -18,12 +18,12 @@ def UpdateString(s1, s2, ind):
     
     return 
 
-#def FindWordCount(lt, st):
-    #count = 0
-    #for i in lt:
-        #if lt(i) = st
-            #count = count + 1;
-    #return
+def FindWordCount(lt, st):
+    count = 0
+    for i in lt:
+        if lt(i) == st:
+            count = count + 1;
+    return
 
 #def ScoreFinder(players):
     #return
