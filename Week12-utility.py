@@ -12,9 +12,11 @@ def LoadFile(filename):
     return lines
 
 
-#def UpdateString(s1, s2, ind):
-    #s1(ind) = s2
-    #return
+def UpdateString(s1, s2, ind):
+    newstring = s1[0:ind] + s2 + s1[ind+1: len(s1)]
+    print("OUTPUT " + newstring)
+    
+    return 
 
 #def FindWordCount(lt, st):
     #count = 0
