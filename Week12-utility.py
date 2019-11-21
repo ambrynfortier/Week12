@@ -2,17 +2,15 @@
 #CSCI 102
 #Week 12 A
 
-
 def PrintOutput(string):
     print("OUTPUT " + string)
     return
 
-#def LoadFile(filename):
-    #readme = open(filename, 'r')
-    #for line in readme.strip().split("\n"):
-        #print line
+def LoadFile(filename):
+    readme = open(filename, 'r')
+    lines=readme.readlines() 
+    return lines
 
-    #return
 
 #def UpdateString(s1, s2, ind):
     #s1(ind) = s2
@@ -24,3 +22,17 @@ def PrintOutput(string):
         #if lt(i) = st
             #count = count + 1;
     #return
+
+#def ScoreFinder(players):
+    #return
+
+#def Union(list1,list2):
+    #return
+
+#def Intersection(list1,list2):
+    #return
+
+#def Notln(list1,list2):
+    #return
+
+
