@@ -29,15 +29,17 @@ def ScoreFinder(players, scores, string):
     if string in players:
         index = players.index(string) #what is list index 
         score = scores[index]
-        todisp = string(index) + "got a score of " str(score)
+        todisp = string(index) + "got a score of " +str(score)
     else:
         todisp = "player not found"
         
     print("OUTPUT " + todisp)
     return
 
-#def Union(list1,list2):
-    #return
+def Union(list1,list2):
+    list3 = list1.append(list2)
+    print(list1)
+    return list3
 
 #def Intersection(list1,list2):
     #return
